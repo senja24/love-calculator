@@ -78,7 +78,7 @@ export default function LoveCalculator() {
                         icon={FaUser}
                         value={yourName}
                         onChange={(e) => setYourName(e.target.value)}
-                        placeholder="Your Name"
+                        placeholder="gema"
                         required
                         className="mb-4"
                     />
@@ -93,7 +93,7 @@ export default function LoveCalculator() {
                         icon={FaUser}
                         value={theirName}
                         onChange={(e) => setTheirName(e.target.value)}
-                        placeholder="Their Name"
+                        placeholder="marko"
                         required
                         className="mb-4"
                     />
