@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
-const title = 'Cek Khodam Online - Jajan Digital';
-const description = 'Cek Khodam Online Developed by Jajan Digital';
+const title = 'Love Calculator - Jajan Digital';
+const description = 'Cek Love Online Developed by Jajan Digital';
 
 export const generateMetadata = async (): Promise<Metadata> => {
 
