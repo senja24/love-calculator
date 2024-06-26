@@ -11,20 +11,20 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title,
         },
         description: description,
-        metadataBase: new URL('https://www.khodam.biz.id'),
+        metadataBase: new URL('https://love.khodam.biz.id'),
         openGraph: {
             description: description,
             images: [
                 {
                     alt: title,
                     height: 360,
-                    url: '/cek-khodam.jpg',
+                    url: '/love-calc.png',
                     width: 480,
                 },
                 {
                     alt: title,
                     height: 720,
-                    url: '/cek-khodam.jpg',
+                    url: '/love-calc.png',
                     width: 960,
                 },
             ],
@@ -32,7 +32,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             siteName: title,
             title: title,
             type: 'website',
-            url: 'https://www.khodam.biz.id',
+            url: 'https://love.khodam.biz.id',
         },
         title: {
             default: title,
@@ -42,7 +42,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             card: 'summary_large_image',
             description: description,
             images: [
-                '/cek-khodam.jpg',
+                '/love-calc.png',
             ],
             site: '@ikaagussetiawan',
             title: title,
