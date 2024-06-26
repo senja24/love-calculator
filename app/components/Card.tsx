@@ -4,6 +4,7 @@ import { Alert, Button, Card, Label, TextInput } from 'flowbite-react';
 import { useState } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { HiInformationCircle } from "react-icons/hi";
+import Pencet from './Pencet';
 
 export default function LoveCalculator() {
     const [yourName, setYourName] = useState<string>('');
@@ -119,6 +120,7 @@ export default function LoveCalculator() {
                     </Alert>
                 </div>
             )}
+            <Pencet />
         </Card>
     );
 }
